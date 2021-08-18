@@ -10,7 +10,7 @@ def get_headers():
     }
 
 
-def _creating_folder():     # Функции создаёт папку на яндекс диске
+def _creating_folder():     # Функция создаёт папку на яндекс диске
     url = "https://cloud-api.yandex.net/v1/disk/resources"
     headers = get_headers()
     params = {"path": "тестовая папка"}
